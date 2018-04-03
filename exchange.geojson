@@ -1,0 +1,89 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.109497,22.396428 ]
+    },
+    "properties": {
+    "program":"Lingnan University � Hong Kong, China � EXCHANGE",
+    "program_type":"Exchange",
+    "city":"Hong Kong",
+    "country":"China",
+    "fullname":"Hong Kong, China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3522219,48.856614 ]
+    },
+    "properties": {
+    "program":"MICEFA � Paris, France � EXCHANGE",
+    "program_type":"Exchange",
+    "city":"Paris",
+    "country":"France",
+    "fullname":"Paris, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 108.835336,34.221597 ]
+    },
+    "properties": {
+    "program":"Northwest University � Xi�an, China � EXCHANGE",
+    "program_type":"Exchange",
+    "city":"Xi'an",
+    "country":"China",
+    "fullname":"Xi'an, China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.189982,45.4642035 ]
+    },
+    "properties": {
+    "program":"University Cattolica del Sacro Cuore � Milan, Italy � EXCHANGE",
+    "program_type":"Exchange",
+    "city":"Milan",
+    "country":"Italy",
+    "fullname":"Milan, Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.02988,50.9847679 ]
+    },
+    "properties": {
+    "program":"University of Erfurt, Germany � EXCHANGE",
+    "program_type":"Exchange",
+    "city":"Erfurt",
+    "country":"Germany",
+    "fullname":"Erfurt, Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.9781303,51.4542645 ]
+    },
+    "properties": {
+    "program":"University of Reading, England � EXCHANGE",
+    "program_type":"Exchange",
+    "city":"Reading",
+    "country":"England",
+    "fullname":"Reading, England"
+    }
+  }
+]
+}

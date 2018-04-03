@@ -1,0 +1,747 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5500276,-33.0153481 ]
+    },
+    "properties": {
+    "program":"AIFS Adolfo Iba�ez University � Vi�a del Mar, Chile",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Vina del Mar",
+    "country":"Chile",
+    "fullname":"Vina del Mar, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 23.7275388,37.9838096 ]
+    },
+    "properties": {
+    "program":"AIFS American College of Greece � Athens, Greece",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Athens",
+    "country":"Greece",
+    "fullname":"Athens, Greece"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3522219,48.856614 ]
+    },
+    "properties": {
+    "program":"AIFS Catholic University of Paris � Paris, France",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Paris",
+    "country":"France",
+    "fullname":"Paris, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4378005,50.0755381 ]
+    },
+    "properties": {
+    "program":"AIFS Charles University � Prague, Czech Republic",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Prague ",
+    "country":"Czech Republic",
+    "fullname":"Prague , Czech Republic"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.724524,45.188529 ]
+    },
+    "properties": {
+    "program":"AIFS Grenoble �cole de Management � Grenoble, France",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Grenoble",
+    "country":"France",
+    "fullname":"Grenoble, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.404954,52.5200066 ]
+    },
+    "properties": {
+    "program":"AIFS Humbolt-Universit�t zu Berlin � Berlin, Germany",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Berlin",
+    "country":"Germany",
+    "fullname":"Berlin, Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 115.8604572,-31.9505269 ]
+    },
+    "properties": {
+    "program":"AIFS Murdoch University � Perth, Australia",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Perth",
+    "country":"Australia",
+    "fullname":"Perth, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.860152,-33.9321045 ]
+    },
+    "properties": {
+    "program":"AIFS Stellenbosch University- Stellenbosch, South Africa",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Stellenbosch",
+    "country":"South Africa",
+    "fullname":"Stellenbosch, South Africa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3522219,48.856614 ]
+    },
+    "properties": {
+    "program":"AIFS University of Paris IV � Paris, France",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Paris",
+    "country":"France",
+    "fullname":"Paris, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.0944238,42.6506606 ]
+    },
+    "properties": {
+    "program":"API Dubrovnik, Croatia",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Dubrovnik",
+    "country":"Croatia",
+    "fullname":"Dubrovnik, Croatia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.9449799,50.0646501 ]
+    },
+    "properties": {
+    "program":"�API Krakow, Poland",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Krakow",
+    "country":"poland",
+    "fullname":"Krakow, poland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.1393366,38.7222524 ]
+    },
+    "properties": {
+    "program":"API Lisbon, Portugal",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Lisbon",
+    "country":"Portugal",
+    "fullname":"Lisbon, Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0907246,9.9280694 ]
+    },
+    "properties": {
+    "program":"API San Jose or San Joaquin de Flores, Costa Rica",
+    "program_type":"UMW Approved Provider Program",
+    "city":"San Jose",
+    "country":"Costa Rica",
+    "fullname":"San Jose, Costa Rica"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 89.6392863,27.4727924 ]
+    },
+    "properties": {
+    "program":"API Thimphu, Bhutan",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Thimphu",
+    "country":"Bhutan",
+    "fullname":"Thimphu, Bhutan"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3522219,48.856614 ]
+    },
+    "properties": {
+    "program":"American Business School � Paris, France",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Paris",
+    "country":"France",
+    "fullname":"Paris, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -17.4676861,14.716677 ]
+    },
+    "properties": {
+    "program":"CIEE Dakar, Senegal",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Dakar",
+    "country":"Senegal",
+    "fullname":"Dakar, Senegal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.8255097,10.2749682 ]
+    },
+    "properties": {
+    "program":"CIEE Monte Verde, Costa Rica",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Monte Verde",
+    "country":"Costa Rica",
+    "fullname":"Monte Verde, Costa Rica"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.6333094,-23.5505199 ]
+    },
+    "properties": {
+    "program":"CIEE Sao Paulo, Brazil",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Sao Paulo",
+    "country":"Brazil",
+    "fullname":"Sao Paulo, Brazil"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.9231471,-24.6282079 ]
+    },
+    "properties": {
+    "program":"CIEE� Gaborone, Botswana",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Gaborone",
+    "country":"Botswana",
+    "fullname":"Gaborone, Botswana"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 23.7275388,37.9838096 ]
+    },
+    "properties": {
+    "program":"College Year in Athens � Athens, Greece",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Athens",
+    "country":"Greece",
+    "fullname":"Athens, Greece"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5683372,55.6760968 ]
+    },
+    "properties": {
+    "program":"Danish Institute for Study Abroad � Copenhagen, Denmark",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Copenhagen ",
+    "country":"Denmark",
+    "fullname":"Copenhagen , Denmark"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.8951679,52.3702157 ]
+    },
+    "properties": {
+    "program":"IES Amsterdam, Netherlands",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Amsterdam",
+    "country":"Netherlands",
+    "fullname":"Amsterdam, Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.4240553,-33.9248685 ]
+    },
+    "properties": {
+    "program":"IES Cape Town, South Africa",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Cape Town",
+    "country":"South Africa",
+    "fullname":"Cape Town, South Africa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.4233344,-0.383106 ]
+    },
+    "properties": {
+    "program":"IES Galapagos Islands, Ecuador",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Galapagos Islands",
+    "country":"Ecuador",
+    "fullname":"Galapagos Islands, Ecuador"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.8498129,33.9715904 ]
+    },
+    "properties": {
+    "program":"IES Rabat, Morocco",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Rabat",
+    "country":"Morocco",
+    "fullname":"Rabat, Morocco"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 16.3738189,48.2081743 ]
+    },
+    "properties": {
+    "program":"IES Vienna, Austria",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Vienna ",
+    "country":"Austria",
+    "fullname":"Vienna , Austria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.9804173,25.6741343 ]
+    },
+    "properties": {
+    "program":"KEI American University of Ras Al Khaimah � Ras Al Khaimah, United Arab Emirates",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Ras Al Khaimah",
+    "country":"United Arab Emirates",
+    "fullname":"Ras Al Khaimah, United Arab Emirates"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "program":"KEI Heriot-Watt University � Edinburgh, Scotland, UK",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Ediburgh",
+    "country":"Scotland",
+    "fullname":"Ediburgh, Scotland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9223592,-2.1709979 ]
+    },
+    "properties": {
+    "program":"KEI International Knowledge Center � Guayaquil, Ecuador",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Guayaquil",
+    "country":"Ecuador",
+    "fullname":"Guayaquil, Ecuador"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "program":"KEI London Southbank University � London, England, UK",
+    "program_type":"UMW Approved Provider Program",
+    "city":"London",
+    "country":"England",
+    "fullname":"London, England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 100.5017651,13.7563309 ]
+    },
+    "properties": {
+    "program":"KEI Mahidol University International College � Bangkok, Thailand",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Bangkok",
+    "country":"Thailand",
+    "fullname":"Bangkok, Thailand"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 37.6172999,55.755826 ]
+    },
+    "properties": {
+    "program":"KEI Moscow State University � Moscow, Russia",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Moscow",
+    "country":"Russia",
+    "fullname":"Moscow, Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.8567437,18.5204303 ]
+    },
+    "properties": {
+    "program":"KEI Symbiosis International University � Pune, India",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Pune",
+    "country":"India",
+    "fullname":"Pune, India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.8160924,-11.985473 ]
+    },
+    "properties": {
+    "program":"KEI Universidad San Ignacio de Loyola � Lima & Cusco, Peru",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Lima & Cusco",
+    "country":"Peru",
+    "fullname":"Lima & Cusco, Peru"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -58.3815591,-34.6036844 ]
+    },
+    "properties": {
+    "program":"Sol Education Abroad University of Belgrano � Buenos Aires, Argentina",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Buenos Aires",
+    "country":"Argentina ",
+    "fullname":"Buenos Aires, Argentina "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 153.4,-28.016667 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: Bond University � Gold Coast",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Gold Coast",
+    "country":"Australia",
+    "fullname":"Gold Coast, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9630576,-37.8136276 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: Deakin University � Melbourne",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Melbourne",
+    "country":"Australia",
+    "fullname":"Melbourne, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 153.0251235,-27.4697707 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: Griffith University � Brisbane",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Brisbane",
+    "country":"Australia",
+    "fullname":"Brisbane, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 153.4,-28.016667 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: Griffith University � Gold Coast",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Gold Coast",
+    "country":"Australia",
+    "fullname":"Gold Coast, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2092955,-33.8688197 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: International College of Management � Sydney",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Sydney",
+    "country":"Australia",
+    "fullname":"Sydney, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9630576,-37.8136276 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: Monash University � Melbourne",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Melbourne",
+    "country":"Australia",
+    "fullname":"Melbourne, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 153.0251235,-27.4697707 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: Queensland University of Technology � Brisbane",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Brisbane",
+    "country":"Australia",
+    "fullname":"Brisbane, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9630576,-37.8136276 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: RMIT University � Melbourne",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Melbourne",
+    "country":"Australia",
+    "fullname":"Melbourne, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 115.8604572,-31.9505269 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: University Notre Dame � Perth",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Perth",
+    "country":"Australia",
+    "fullname":"Perth, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9630576,-37.8136276 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: University of Melbourne",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Melbourne",
+    "country":"Australia",
+    "fullname":"Melbourne, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2092955,-33.8688197 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: University of Notre Dame � Sydney",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Sydney",
+    "country":"Australia",
+    "fullname":"Sydney, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 153.0251235,-27.4697707 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: University of Queensland � Brisbane",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Brisbane",
+    "country":"Australia",
+    "fullname":"Brisbane, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2092955,-33.8688197 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: University of Sydney",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Sydney",
+    "country":"Australia",
+    "fullname":"Sydney, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.2092955,-33.8688197 ]
+    },
+    "properties": {
+    "program":"TEAN Australia: University of Technology � Sydney",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Sydney",
+    "country":"Australia",
+    "fullname":"Sydney, Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4737021,31.2303904 ]
+    },
+    "properties": {
+    "program":"�TEAN China: Summer in Shanghai",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Shanghai",
+    "country":"China",
+    "fullname":"Shanghai, China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 170.7148868,-45.4848933 ]
+    },
+    "properties": {
+    "program":"�TEAN New Zealand: Massey University � Palmerston North",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Palmerston",
+    "country":"New Zealand",
+    "fullname":"Palmerston, New Zealand"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 174.776236,-41.2864603 ]
+    },
+    "properties": {
+    "program":"�TEAN New Zealand: Massey University � Wellington",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Willington",
+    "country":"New Zealand",
+    "fullname":"Willington, New Zealand"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 174.7633315,-36.8484597 ]
+    },
+    "properties": {
+    "program":"�TEAN New Zealand: University of Auckland",
+    "program_type":"UMW Approved Provider Program",
+    "city":"Auckland",
+    "country":"New Zealand",
+    "fullname":"Auckland, New Zealand"
+    }
+  }
+]
+}

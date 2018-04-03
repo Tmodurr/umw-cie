@@ -1,0 +1,201 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.3599039,51.375801 ]
+    },
+    "properties": {
+    "program":"Advanced Studies in England � Bath, England, UK",
+    "program_type":"Direct Enroll",
+    "city":"Bath",
+    "country":"England",
+    "fullname":"Bath, England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 23.7275388,37.9838096 ]
+    },
+    "properties": {
+    "program":"American School of Classical Studies � Athens, Greece",
+    "program_type":"Direct Enroll",
+    "city":"Athens",
+    "country":"Greece",
+    "fullname":"Athens, Greece"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.129263,53.22739 ]
+    },
+    "properties": {
+    "program":"Bangor University � Bangor, Wales, UK",
+    "program_type":"Direct Enroll",
+    "city":"Bangor",
+    "country":"Wales ",
+    "fullname":"Bangor, Wales "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.040235,47.497912 ]
+    },
+    "properties": {
+    "program":"Budapest Semester in Mathematics � Budapest, Hungary",
+    "program_type":"Direct Enroll",
+    "city":"Budapest ",
+    "country":"Hungary",
+    "fullname":"Budapest , Hungary"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577263,51.7520209 ]
+    },
+    "properties": {
+    "program":"Center for Medieval and Renaissance Studies (CMRS) � Oxford, England, UK",
+    "program_type":"Direct Enroll",
+    "city":"Oxford",
+    "country":"England",
+    "fullname":"Oxford, England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4378005,50.0755381 ]
+    },
+    "properties": {
+    "program":"CESP University of Economics � Prague, Czech Republic",
+    "program_type":"Direct Enroll",
+    "city":"Prague ",
+    "country":"Czech Republic",
+    "fullname":"Prague , Czech Republic"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9349852,43.2630126 ]
+    },
+    "properties": {
+    "program":"CIDE University of Deusto � Bilbao, Spain",
+    "program_type":"Direct Enroll",
+    "city":"Bilbao",
+    "country":"Spain",
+    "fullname":"Bilbao, Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 108.8076195,23.7247599 ]
+    },
+    "properties": {
+    "program":"Chinese Language Institute (CLI) ��Guangxi, China",
+    "program_type":"Direct Enroll",
+    "city":"Guangxi",
+    "country":"China",
+    "fullname":"Guangxi, China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.447427,43.529742 ]
+    },
+    "properties": {
+    "program":"IAU College, Aix en Provence, France",
+    "program_type":"Direct Enroll",
+    "city":"Aix en Provence",
+    "country":"France",
+    "fullname":"Aix en Provence, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4963655,41.9027835 ]
+    },
+    "properties": {
+    "program":"Intercollegiate Center for Classical Studies � Rome, Italy",
+    "program_type":"Direct Enroll",
+    "city":"Rome",
+    "country":"Italy",
+    "fullname":"Rome, Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "program":"Queen Mary University � London, England, UK",
+    "program_type":"Direct Enroll",
+    "city":"London",
+    "country":"England",
+    "fullname":"London, England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.4863157,51.8968917 ]
+    },
+    "properties": {
+    "program":"University College Cork � Cork, Ireland",
+    "program_type":"Direct Enroll",
+    "city":"Cork",
+    "country":"Ireland",
+    "fullname":"Cork, Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2603097,53.3498053 ]
+    },
+    "properties": {
+    "program":"University College Dublin � Dublin, Ireland",
+    "program_type":"Direct Enroll",
+    "city":"Dublin",
+    "country":"Ireland",
+    "fullname":"Dublin, Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.188267,55.953252 ]
+    },
+    "properties": {
+    "program":"University of Edinburgh � Edinburgh, Scotland, UK",
+    "program_type":"Direct Enroll",
+    "city":"Ediburgh",
+    "country":"Scotland",
+    "fullname":"Ediburgh, Scotland"
+    }
+  }
+]
+}

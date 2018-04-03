@@ -1,0 +1,145 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 85.3239605,27.7172453 ]
+    },
+    "properties": {
+    "program":"UMW in Nepal",
+    "program_type":"Faculty led",
+    "city":"Kathmandu",
+    "country":"Nepal",
+    "fullname":"Kathmandu, Nepal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.4240553,-33.9248685 ]
+    },
+    "properties": {
+    "program":"UMW in South Africa, Sustainability",
+    "program_type":"Faculty led",
+    "city":"Cape Town",
+    "country":"South Africa",
+    "fullname":"Cape Town, South Africa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.4233344,-0.383106 ]
+    },
+    "properties": {
+    "program":"UMW in the Galapagos",
+    "program_type":"Faculty led",
+    "city":"Galapagos Islands",
+    "country":"Ecuador",
+    "fullname":"Galapagos Islands, Ecuador"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.2079809,46.8138783 ]
+    },
+    "properties": {
+    "program":"UMW in Quebec",
+    "program_type":"Faculty led",
+    "city":"Quebec",
+    "country":"Canada",
+    "fullname":"Quebec, Canada"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1277583,51.5073509 ]
+    },
+    "properties": {
+    "program":"Umw in London, Exploring British Museums",
+    "program_type":"Faculty led",
+    "city":"London",
+    "country":"England",
+    "fullname":"London, England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3522219,48.856614 ]
+    },
+    "properties": {
+    "program":"UMW in Paris, American Business School",
+    "program_type":"Faculty led",
+    "city":"Paris",
+    "country":"France",
+    "fullname":"Paris, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.447427,43.529742 ]
+    },
+    "properties": {
+    "program":"UMW in France, IAU College",
+    "program_type":"Faculty led",
+    "city":"Aix en Provence",
+    "country":"France",
+    "fullname":"Aix en Provence, France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9349852,43.2630126 ]
+    },
+    "properties": {
+    "program":"UMW in Spain",
+    "program_type":"Faculty led",
+    "city":"Bilbao",
+    "country":"Spain",
+    "fullname":"Bilbao, Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.129263,53.22739 ]
+    },
+    "properties": {
+    "program":"UMW in Wales, Fantasy Literature",
+    "program_type":"Faculty led",
+    "city":"Bangor",
+    "country":"Wales",
+    "fullname":"Bangor, Wales"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.5207358,-33.7139247 ]
+    },
+    "properties": {
+    "program":"UMW in South Africa, Community Engagement through Athletics",
+    "program_type":"Faculty led",
+    "city":"Port Elizabeth",
+    "country":"South Africa",
+    "fullname":"Port Elizabeth, South Africa"
+    }
+  }
+]
+}
