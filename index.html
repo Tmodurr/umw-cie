@@ -1,0 +1,222 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>MSGA Webmap Lab</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+    <script
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.min.js'></script>
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.css' type='text/css' />
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <style>
+        body { margin:0; padding:0; }
+        .text-align-center {
+		    text-align: center;
+		}
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #navBar{position: absolute; bottom:0; right:0;}
+        #menu {
+            background: #fff;
+            position: absolute;
+            z-index: 1;
+            top: 10px;
+            right: 10px;
+            border-radius: 3px;
+            width: 320px;
+            border: 1px solid rgba(0,0,0,0.4);
+            font-family: 'Open Sans', sans-serif;
+        }
+        #menu a {
+            font-size: 13px;
+            color: #6BADA5;
+            display: block;
+            margin: 0;
+            padding: 0;
+            padding: 10px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0,0,0,0.25);
+            text-align: center;
+        }
+        #menu a:last-child {
+            border: none;
+        }
+        #menu a:hover {
+            background-color: #f8f8f8;
+            color: #404040;
+        }
+        #menu a.active {
+            background-color: #3887be;
+            color: #ffffff;
+        }
+        #menu a.active:hover {
+            background: #3074a4;
+        }
+    </style>
+</head>
+<body>
+<nav id="menu"></nav>
+<div id='map'></div>
+<script>
+
+var bounds = [
+    [-180, -90], // Southwest coordinates
+    [180, 90]  // Northeast coordinates
+];
+
+mapboxgl.accessToken = 'pk.eyJ1IjoidG1vc2VzIiwiYSI6ImNqZmlzdHJxNzA0ZnUzNHJ6Z3cycHRjb3MifQ.PIw0CxpoiZdvCtQbH3eVBg';
+
+const map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/tmoses/cjeueurdz0gzv2rmftfzbqquo',//mapbox://styles/tmoses/cil8plyor001maakppagzwb8c', // stylesheet location mapbox://styles/mapbox/streets-v9
+    center: [25, 10], // starting position [lng, lat]
+    zoom: 2, // starting zoom
+    maxZoom: 18,
+    maxBounds: bounds,
+});
+
+// https://www.mapbox.com/mapbox-gl-js/example/filter-markers/
+
+
+var circleRadius = 8.75;
+var linearOffset = Math.round(Math.sqrt(0.5 * Math.pow(circleRadius, 2)));
+
+
+map.on('load', function () {
+    console.log('loading');
+	// Bars
+    map.addLayer({
+        "id": "Exchange",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": "https://raw.githubusercontent.com/Tmodurr/umw-cie/master/exchange.geojson"
+        },
+        "layout":  {
+            "icon-image": "college-15",
+            "icon-allow-overlap": true,
+            "icon-halo-width": 44,
+            "icon-halo-color": '#ffff00'
+            }
+         }
+    );
+    // Hotels
+	map.addLayer({
+	        "id": "Direct Enrollment",
+	        "type": "symbol",
+	        "source": {
+	            "type": "geojson",
+	            "data": "https://raw.githubusercontent.com/Tmodurr/umw-cie/master/direct-enroll.geojson"
+	        },
+	        "layout":  {
+	            "icon-image": "entrance-alt1-15",
+	            "icon-allow-overlap": true
+	            }
+	         }
+	);
+	// Activities
+	map.addLayer({
+	        "id": "UMW Approved Provider",
+	        "type": "symbol",
+	        "source": {
+	            "type": "geojson",
+	            "data": "https://raw.githubusercontent.com/Tmodurr/umw-cie/master/umw-approved.geojson"
+	        },
+	        "layout":  {
+	            "icon-image": "museum-15",
+	            "icon-allow-overlap": true
+	            }
+	         },
+             
+	);
+	// Restaurants
+	map.addLayer({
+	        "id": "Faculty-led",
+	        "type": "symbol",
+	        "source": {
+	            "type": "geojson",
+	            "data": "https://raw.githubusercontent.com/Tmodurr/umw-cie/master/facility-led.geojson"
+	        },
+	        "layout":  {
+	            "icon-image": "library-15",
+	            "icon-allow-overlap": true
+	            }
+	         }
+	);
+
+    map.on('click', 'Exchange', function (e) {
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.program + "</b>"+   "<br />" +  e.features[0].properties.fullname + "</center>")
+            .addTo(map);
+    });
+    map.on('click', 'Direct Enrollment', function (e) {
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.program + "</b>" + "<br />" +  e.features[0].properties.fullname + "</center>")
+            .addTo(map);
+    });
+   
+    map.on('click', 'UMW Approved Provider', function (e) {
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.program + "</b>" + "<br />" +  e.features[0].properties.fullname + "</center>")
+            .addTo(map);
+    });
+    map.on('click', 'Faculty-led', function (e) {
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.program + "</b>"+ "<br />" +  e.features[0].properties.fullname + "</center>")
+    });
+  
+});
+// map.on('click', 'Exchange', function (e) {
+//         map.flyTo({center: e.features[0].geometry.coordinates});
+//     });
+// map.on('click', 'Direct Enrollment', function (e) {
+//         map.flyTo({center: e.features[0].geometry.coordinates});
+//     });
+// map.on('click', 'UMW Approved Provider', function (e) {
+//         map.flyTo({center: e.features[0].geometry.coordinates});
+//     });
+// map.on('click', 'Faculty-led', function (e) {
+//         map.flyTo({center: e.features[0].geometry.coordinates});
+//     });
+var toggleableLayerIds = [ 'Exchange', 'Direct Enrollment', 'UMW Approved Provider', 'Faculty-led' ];
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
+map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
+map.addControl(new MapboxGeocoder({accessToken: mapboxgl.accessToken}), 'top-left');
+
+</script>
+
+
+</body>
+</html>
